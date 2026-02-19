@@ -4,6 +4,7 @@ import TurnCoordinator from "./components/TurnCoordinator";
 import Airspeed from "./components/Airspeed";
 import Altimeter from "./components/Altimeter";
 import AttitudeIndicator from "./components/AttitudeIndicator";
+import CourseDeviationIndicator from "./components/CourseDeviationIndicator";
 
 export {
     HeadingIndicator,
@@ -12,4 +13,5 @@ export {
     Airspeed,
     Altimeter,
     AttitudeIndicator,
+    CourseDeviationIndicator,
 };

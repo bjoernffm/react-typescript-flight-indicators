@@ -5,11 +5,25 @@ import {
     Airspeed,
     Altimeter,
     AttitudeIndicator,
+    CourseDeviationIndicator,
 } from "react-typescript-flight-indicators";
 
 const App = () => {
     return (
         <div>
+            <div style={{ display: "flex", marginTop: 4, marginBottom: 4 }}>
+                <CourseDeviationIndicator
+                    heading={Math.random() * 360}
+                    deviation={Math.random() * 20 - 10}
+                    showBox={false}
+                />
+                <CourseDeviationIndicator
+                    heading={Math.random() * 360}
+                    deviation={Math.random() * 20 - 10}
+                    showBox={false}
+                    size={"200px"}
+                />
+            </div>
             <div style={{ display: "flex", marginTop: 4, marginBottom: 4 }}>
                 <HeadingIndicator
                     heading={Math.random() * 360}

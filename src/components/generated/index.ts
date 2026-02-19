@@ -1,5 +1,7 @@
 export { default as AltitudePressure } from "./AltitudePressure";
 export { default as AltitudeTicks } from "./AltitudeTicks";
+export { default as CdiMechanics } from "./CdiMechanics";
+export { default as CdiNeedle } from "./CdiNeedle";
 export { default as FiBox } from "./FiBox";
 export { default as FiCircle } from "./FiCircle";
 export { default as FiNeedle } from "./FiNeedle";
